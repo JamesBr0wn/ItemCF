@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="hadoop-library">
+    <CLASSES>
+      <root url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/yarn" />
+      <root url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/common/lib" />
+      <root url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/common" />
+      <root url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/hdfs" />
+      <root url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/mapreduce" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/common/jdiff" />
+      <root url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/hdfs/jdiff" />
+      <root url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/mapreduce/jdiff" />
+      <root url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/common/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/common" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/common/lib" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/hdfs" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/mapreduce" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/yarn" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/AppData/Local/Programs/Hadoop/share/hadoop/common/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>
