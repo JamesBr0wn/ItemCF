@@ -7,6 +7,29 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="hadoop-library" level="project" />
+    <orderEntry type="module-library">
+      <library name="hadoop-library">
+        <CLASSES>
+          <root url="file://D:/Hadoop/share/hadoop/yarn" />
+          <root url="file://D:/Hadoop/share/hadoop/common/lib" />
+          <root url="file://D:/Hadoop/share/hadoop/common" />
+          <root url="file://D:/Hadoop/share/hadoop/hdfs" />
+          <root url="file://D:/Hadoop/share/hadoop/mapreduce" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://D:/Hadoop/share/hadoop/common/lib" />
+          <root url="file://D:/Hadoop/share/hadoop/common/jdiff" />
+          <root url="file://D:/Hadoop/share/hadoop/hdfs/jdiff" />
+          <root url="file://D:/Hadoop/share/hadoop/mapreduce/jdiff" />
+        </SOURCES>
+        <jarDirectory url="file://D:/Hadoop/share/hadoop/common" recursive="false" />
+        <jarDirectory url="file://D:/Hadoop/share/hadoop/common/lib" recursive="false" />
+        <jarDirectory url="file://D:/Hadoop/share/hadoop/hdfs" recursive="false" />
+        <jarDirectory url="file://D:/Hadoop/share/hadoop/mapreduce" recursive="false" />
+        <jarDirectory url="file://D:/Hadoop/share/hadoop/yarn" recursive="false" />
+        <jarDirectory url="file://D:/Hadoop/share/hadoop/common/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>
